@@ -148,3 +148,91 @@ body{
     color: #777;
     padding: 10px;
 }
+#news-section{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.rnews{
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+
+}
+.rnews-des{
+    font-family: "Fira Sans", serif;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+.news{
+    width: 1270px;
+    height: 402px;
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0,0.1);
+}
+.simg{
+    height:308px ;
+    width: 406px;
+    border-radius: 24px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    margin-left: 48px;
+    margin-right: 32px;
+}
+.news-sub{
+
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.news-title{
+    font-family: "Fira Sans", serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+}
+.news-paper-logo{
+    width: 134px;
+    height: 40px;
+}
+.date-time{
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 300;
+    display: flex;
+    gap: 24px;
+}
+.news-description{
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 300;
+    display: flex;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.btn-news{
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 300;
+    width: 140px;
+    height: 48px;
+
+}
+.news-01{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 40px;
+    width: 1270px;
+}
+.simg01{
+    margin-left: 20px;
+    
+}
