@@ -92,6 +92,12 @@ body{
     margin-top: 20px;
     margin-bottom: 30px;
 }
+.titleoF{
+    font-family: "Fira Sans", serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
 .box{
     width: 410px;
     height: 275px;
@@ -192,7 +198,7 @@ body{
     width: 50px;
     height: 45px;
     position: absolute;
-    top: 1560px;
+    top: 1580px;
     left: 40px;
     opacity: 0.7;
 }
