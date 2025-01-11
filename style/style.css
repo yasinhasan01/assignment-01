@@ -3,6 +3,10 @@
 *{
     margin: 0;
     padding: 0;
+    /* background-color: #F1F1F3; */
+}
+body{
+       background-color: #F1F1F3; 
 }
 #banner{
     display: flex;
@@ -107,4 +111,40 @@
     opacity: .6;
     margin-bottom: 10px;
     margin-top: 10px;
+}
+.quote{
+    margin-top: 40px;
+    background-color: #FFFFFF;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0,0.1);
+    padding: 20px 30px;
+
+}
+.quotebg{
+    width: 50px;
+    height: 45px;
+    position: absolute;
+    top: 1035px;
+    left: 40px;
+    opacity: 0.7;
+}
+.quotes{
+    font-size: 16px;
+    font-family: "Fira Sans", serif;
+    color: rgba(14, 14, 14, 0.8);
+    padding: 10px;
+}
+.name{
+    font-family: "Fira Sans", serif;
+    padding: 10px;
+    font-weight: bold;
+    color: #333;
+}
+.dag{
+    font-family: "Fira Sans", serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #777;
+    padding: 10px;
 }
