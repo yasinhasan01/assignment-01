@@ -8,6 +8,33 @@
 body{
        background-color: #F1F1F3; 
 }
+.nav{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #F5F5F5; */
+    margin-bottom: 71px;
+    margin-top: 20px;
+}
+.nav-title{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-size: 50px;
+   padding-left: 20px;
+}
+.nav-btn{
+    width: 116px;
+    height: 52px;
+    border-color: #006A50;
+    color: #006A50;
+    border-radius: 8px;
+    cursor: pointer;
+    
+
+}
+.nav-btn:hover{
+    background-color: brown;
+
+}
 #banner{
     display: flex;
     background-color: #C6E4D6;
@@ -31,6 +58,7 @@ body{
 }
 #banner .title{
     font-family: "Fira Sans", serif;
+
     font-weight: 700;
     font-size: 50px;
     margin-bottom: 10px;
@@ -104,6 +132,45 @@ body{
     width: 100px;
     height: 40px;
 }
+#pillar{
+    margin-top: 40px;
+}
+.titleop{
+    font-family: "Fira Sans", serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+.pbox{
+    display: flex;
+   justify-content: space-between;
+   margin-top: 40px;
+}
+.pbox-1{
+    width: 302px;
+    height: 244px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+
+}
+.pboximg{
+    padding: 10px;
+
+}
+.pboxtitle{
+    padding: 10px;
+    font-family: "Fira Sans", serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.pboxsubtitle{
+    padding: 10px;
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
 .subtitle1{
     font-family: "Fira Sans", serif;
     font-weight: 400;
@@ -125,7 +192,7 @@ body{
     width: 50px;
     height: 45px;
     position: absolute;
-    top: 1035px;
+    top: 1560px;
     left: 40px;
     opacity: 0.7;
 }
@@ -357,4 +424,11 @@ body{
     font-weight: 300;
     margin-bottom: 16px;
     color: rgba(14, 14, 14, 0.3);
+}
+#foot{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
