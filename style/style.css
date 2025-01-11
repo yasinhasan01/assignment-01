@@ -236,3 +236,125 @@ body{
     margin-left: 20px;
     
 }
+#donate-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+
+}
+.donate-title{
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.donate-des{
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+.btn-box{
+    width: 1071px;
+    height: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+  
+}
+.btn01{
+    width: 270px;
+    height: 100%;
+    border-radius: 16px;
+    border-style: none;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.btn01:hover{
+    background-color:rgba(198, 228, 214, 1);
+}
+.tk2{
+    background-color:rgba(198, 228, 214, 1);
+}
+.tk2:hover{
+    background-color: lightcoral;
+}
+.input1{
+    width: 1032px;
+   height: 64px;
+   text-align: center;
+   border-style: none;
+  
+}
+#newsletter{
+    width: 1280px;
+    height: 395px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+}
+.overlap-input{
+    display: flex;
+    gap: 0px;
+   border-collapse: collapse;
+}
+.inemail{
+    border-style: none;
+}
+.btn-nl{
+    background-color: #006A50;
+    border-style: none;
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 300;
+    width: 150px;
+    height: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+    
+}
+.btn-nl:hover{
+    background-color: red;
+}
+.inemail{
+    width: 600px;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 10px;
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 16px;
+    color: rgba(14, 14, 14, 0.3);
+}
+.nl-title{
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.nl-des{
+    width: 622px;
+    height: 48px;
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 16px;
+   text-align: center;
+
+}
+.last{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 16px;
+    color: rgba(14, 14, 14, 0.3);
+}
